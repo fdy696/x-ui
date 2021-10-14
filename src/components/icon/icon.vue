@@ -1,9 +1,7 @@
 <template>
-  <div class="x-icon">
-    <svg class="icon" aria-hidden="true">
-      <use :xlink:href="`#i-${icon}`"></use>
-    </svg>
-  </div>
+  <svg class="x-icon" aria-hidden="true">
+    <use :xlink:href="`#i-${icon}`"></use>
+  </svg>
 </template>
 
 <script>
@@ -20,7 +18,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.icon {
+.x-icon {
   width: 1rem;
   height: 1rem;
   vertical-align: -0.15em;
