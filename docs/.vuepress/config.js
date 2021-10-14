@@ -24,7 +24,6 @@ module.exports = {
         children: [
           '/components/icon',
           '/components/button',
-          '/components/tabs',
           '/components/timeline',
           '/components/collapse',
           '/components/tree',

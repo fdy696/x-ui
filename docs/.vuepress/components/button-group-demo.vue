@@ -3,19 +3,19 @@
 <template>
   <div class="wrapper">
     <div>
-      <x-button></x-button>
-      <x-button icon="download">下载</x-button>
-      <x-button icon="download" icon-position="right">下载</x-button>
-      <x-button loading>加载中...</x-button>
-      <x-button disabled>禁用按钮</x-button>
+      <x-button-group>
+        <x-button icon='left'>前进</x-button>
+        <x-button icon='right' iconPosition="right">后退</x-button>
+      </x-button-group>
     </div>
   </div>
 </template>
 <script>
 import xButton from '../../../src/components/button/button.vue'
+import xButtonGroup from '../../../src/components/button/button-group.vue'
 import '../public/iconfont.js'
 export default {
-  components: {xButton},
+  components: {xButton, xButtonGroup},
   data() {
     return {
       loading: true
@@ -23,7 +23,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 div.wrapper {
   margin-top: 10px;
 }
