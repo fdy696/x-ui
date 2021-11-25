@@ -11,14 +11,17 @@
 </template>
 <script>
 import xIcon from '../../../src/components/icon/icon.vue'
-import '../public/iconfont.js'
+
 export default {
   components: {'x-icon': xIcon},
   data() {
     return {
       loading: true
     }
-  }
+  },
+  mounted () {
+    import('../public/iconfont.js')
+  },
 }
 </script>
 <style scoped>

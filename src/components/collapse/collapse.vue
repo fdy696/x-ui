@@ -42,6 +42,7 @@ export default {
     }
   },
   mounted() {
+    import('../../assets/iconfont.js')
     this.$children.forEach((child) => {
       child._props.name && this.names.push(child._props.name)
     })

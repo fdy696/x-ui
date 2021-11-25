@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import 'normalize.css'
-import './assets/iconfont'
 import './assets/style/index.less'
 
 Vue.config.productionTip = false

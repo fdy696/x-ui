@@ -43,7 +43,6 @@
 <script>
 import xTimeline from '../../../src/components/timeline/timeline.vue'
 import xTimelineItem from '../../../src/components/timeline/timeline-item.vue'
-import '../public/iconfont.js'
 export default {
   components: {
     xTimeline,
@@ -53,6 +52,9 @@ export default {
     return {
       loading: true
     }
+  },
+  mounted () {
+    import('../public/iconfont.js')
   }
 }
 </script>

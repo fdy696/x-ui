@@ -3,9 +3,12 @@ title: Timeline 时间轴
 ---
 
 # Timeline 时间轴
+
 #### 基本使用
 
-<timeline-demo/>
+<ClientOnly>
+ <timeline-demo/>
+</ClientOnly>
 
 #### 示例代码：
 
@@ -48,13 +51,13 @@ title: Timeline 时间轴
 
 # Timeline-Item
 
-|参数| 说明 |  类型  | 可选值 | 默认值 |
-| :-------------: |:-------------:| :-----:|:-----:|:-----:|
-| icon | 设置内置的icon |    String | setting，info，left，right，download，loading，up，down| --
+| 参数 |      说明       |  类型  |                         可选值                          | 默认值 |
+| :--: | :-------------: | :----: | :-----------------------------------------------------: | :----: |
+| icon | 设置内置的 icon | String | setting，info，left，right，download，loading，up，down |   --   |
 
 # Timeline-Item Slot
 
-|参数| 说明 |
-| :-------------: |:-------------:|
-| title | Timeline-Item title内容 |
-| content | Timeline-Item content内容 |
+|  参数   |            说明            |
+| :-----: | :------------------------: |
+|  title  |  Timeline-Item title 内容  |
+| content | Timeline-Item content 内容 |

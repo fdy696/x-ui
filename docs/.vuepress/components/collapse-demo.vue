@@ -46,7 +46,6 @@
 <script>
 import xCollapse from '../../../src/components/collapse/collapse.vue'
 import xCollapseItem from '../../../src/components/collapse/collapse-item.vue'
-import '../public/iconfont.js'
 export default {
   components: {
     xCollapse,
@@ -56,6 +55,9 @@ export default {
     return {
       selected: ['1']
     }
+  },
+  mounted () {
+    import('../public/iconfont.js')
   },
 }
 </script>

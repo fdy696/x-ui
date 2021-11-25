@@ -17,6 +17,9 @@ export default {
   components: {
     xIcon,
     xButton
+  },
+  mounted() {
+    import('./assets/iconfont.js')
   }
 }
 </script>

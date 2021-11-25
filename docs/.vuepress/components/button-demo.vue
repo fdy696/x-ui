@@ -13,14 +13,16 @@
 </template>
 <script>
 import xButton from '../../../src/components/button/button.vue'
-import '../public/iconfont.js'
 export default {
   components: {xButton},
   data() {
     return {
       loading: true
     }
-  }
+  },
+  mounted () {
+    import('../public/iconfont.js')
+  },
 }
 </script>
 <style>

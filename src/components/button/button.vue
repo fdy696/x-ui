@@ -18,6 +18,9 @@ export default {
   components: {
     xIcon
   },
+  mounted() {
+    import('../../assets/iconfont.js')
+  },
   props: {
     icon: {
       type: String,
@@ -77,6 +80,7 @@ export default {
   background: @button-bg;
   display: inline-flex;
   justify-content: center;
+  cursor: pointer;
   align-items: center;
   vertical-align: middle; // 必须加，否则一个会下降
   &:hover {

@@ -1,11 +1,14 @@
 ---
 title: Collapse 折叠面板
 ---
+
 # Collapse 折叠面板
 
 ### 基本使用
 
-<collapse-demo/>
+<ClientOnly>
+ <collapse-demo/>
+</ClientOnly>
 
 ### 示例代码：
 
@@ -52,21 +55,21 @@ title: Collapse 折叠面板
 ```
 
 # Attributes
-|参数| 说明 |  类型  | 可选值 | 默认值 |
-| :-------------: |:-------------:| :-----:|:-----:|:-----:|
-| selected | 当前展开的折叠项 | Array | 折叠项name | ['1']
-|all | 是否提供全部展开按钮  |Boolean|true、false| true |
 
+|   参数   |         说明         |  类型   |   可选值    | 默认值 |
+| :------: | :------------------: | :-----: | :---------: | :----: |
+| selected |   当前展开的折叠项   |  Array  | 折叠项 name | ['1']  |
+|   all    | 是否提供全部展开按钮 | Boolean | true、false |  true  |
 
 # Collapse-item
 
-|参数| 说明 |  类型  | 可选值 | 默认值 |
-| :-------------: |:-------------:| :-----:|:-----:|:-----:|
-| name | 当前项的标示 | String | -- | -- |
+| 参数 |     说明     |  类型  | 可选值 | 默认值 |
+| :--: | :----------: | :----: | :----: | :----: |
+| name | 当前项的标示 | String |   --   |   --   |
+
 # Collapse-Item Slot
 
-|参数| 说明 |
-| :-------------: |:-------------:|
-| title | Timeline-Item title内容 |
-| content | Timeline-Item content内容 |
-
+|  参数   |            说明            |
+| :-----: | :------------------------: |
+|  title  |  Timeline-Item title 内容  |
+| content | Timeline-Item content 内容 |

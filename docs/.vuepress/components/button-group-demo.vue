@@ -13,14 +13,16 @@
 <script>
 import xButton from '../../../src/components/button/button.vue'
 import xButtonGroup from '../../../src/components/button/button-group.vue'
-import '../public/iconfont.js'
 export default {
   components: {xButton, xButtonGroup},
   data() {
     return {
       loading: true
     }
-  }
+  },
+  mounted () {
+    import('../public/iconfont.js')
+  },
 }
 </script>
 <style scoped>
