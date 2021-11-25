@@ -7,6 +7,10 @@ title: 介绍
 
 # 介绍
 
+### 项目演示地址
+
+https://fdy696.github.io/x-ui/components/icon.html
+
 ### 开发目的
 
 沉淀工作中遇到的需要自己封装的组件库，提高自己造轮子的技术，方便代码复用。
